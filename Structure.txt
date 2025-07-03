@@ -1,0 +1,29 @@
+GroovePy/
+├── .venv/                   # your virtualenv
+├── groovepy/                # main package
+│   ├── __init__.py
+│   ├── core/                # core application and windowing
+│   │   ├── __init__.py
+│   │   └── window.py
+│   ├── renderer/            # rendering abstractions
+│   │   ├── __init__.py
+│   │   └── renderer.py
+│   ├── input/               # input handling
+│   │   ├── __init__.py
+│   │   └── keyboard.py
+│   └── utils/               # logging, math helpers, etc.
+│       ├── __init__.py
+│       └── logger.py
+├── examples/                # demo scripts
+│   └── simple_window.py
+├── requirements.txt
+└── README.md
+
+
+groovepy/ is the top-level package.
+
+Subfolders map to modules: core.window, renderer.renderer, etc.
+
+examples/ holds runnable demos separate from the library.
+
+requirements.txt will list our dependencies.

@@ -1,0 +1,11 @@
+.venv
+groovepy.egg-info
+.egg-info
+__pycache__
+# *.pyc
+# *.pyo
+# *.pyd
+# *.so
+*.egg
+# *.db
+# *.sqlite
