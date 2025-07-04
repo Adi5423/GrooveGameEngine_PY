@@ -1,7 +1,9 @@
 #version 330 core
 
+in vec3 vColor;         // received from vertex shader
 out vec4 FragColor;
 
-void main() {
-    FragColor = vec4(1.0, 0.5, 0.2, 1.0); // Orange
+void main()
+{
+    FragColor = vec4(vColor, 1.0);
 }
